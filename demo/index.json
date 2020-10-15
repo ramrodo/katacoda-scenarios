@@ -1,20 +1,20 @@
 {
-  "title": "demo project",
-  "description": "Just a demo project",
+  "title": "Meshery - The service mesh management plane",
+  "description": "Getting started with Meshery",
   "difficulty": "Beginner",
-  "time": "2 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Install the UI dependencies",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Build and Export the UI",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Build the Meshery server",
         "text": "step3.md"
       }
     ],
@@ -26,7 +26,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "ubuntu1804"
