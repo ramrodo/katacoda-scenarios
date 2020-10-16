@@ -6,11 +6,11 @@
   "details": {
     "steps": [
       {
-        "title": "Install the UI dependencies",
+        "title": "Meshery - up and meshing!",
         "text": "step1.md"
       },
       {
-        "title": "Build and Export the UI",
+        "title": "Set up and Build the UI",
         "text": "step2.md"
       },
       {
