@@ -2,11 +2,11 @@ Service meshes are a layer of cloud-centric architecture built right in as a lay
 
 The service mesh architecture can be divided into three parts:
 
-* Data plane - A collection of intelligent network proxies that bring together to intercept every request that goes through to your workloads.
-* Control Plane - Interacts with your service mesh and dictates its behaviour
-* Management Plane - Provides additional governance, expanded policy  and backend system integration
+* **Data plane** - A collection of intelligent network proxies that bring together to intercept every request that goes through to your workloads.
+* **Control Plane** - Interacts with your service mesh and dictates its behaviour
+* **Management Plane** - Provides additional governance, expanded policy  and backend system integration
 
-An epitome of Management Planes, Meshery is **the service mesh management plane**. It mirrors the prominent features of SMPS and SMI and facilitates the benchmarking, interoperability, and standardization of service meshes, thus helping a user understand the overhead value of a service mesh and enabling them to fulfill their meshing needs efficiently.
+An epitome of **Management Planes**, Meshery is **the service mesh management plane**. It mirrors the prominent features of SMPS and SMI and facilitates the benchmarking, interoperability, and standardization of service meshes, thus helping a user understand the overhead value of a service mesh and enabling them to fulfill their meshing needs efficiently.
 
 As a management plane, Meshery lies above the Data plane, and the Control plane and provides a long list of alluring features:
 
@@ -14,6 +14,6 @@ As a management plane, Meshery lies above the Data plane, and the Control plane 
 - Utilizes Docker container (Docker compose or Kubernetes)
 - Support for 8 service meshes at the moment
 
-Meshery is written in Golang and leverage Go modules. The UI is built using React and Next.Js.
+Meshery is written in Golang and leverages Go modules. The UI is built using React and Next.JS.
 
 We'll set up and run Meshery in the next step.

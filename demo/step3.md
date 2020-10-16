@@ -1,3 +1,3 @@
 Build the Meshery server:
 
-`make run-local` {{copy}}
+`make run-local` {{execute}}
