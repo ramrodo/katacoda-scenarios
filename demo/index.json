@@ -28,7 +28,8 @@
   "environment": {
     "uilayout": "editor-terminal",
     "dashboards": [{"name": "Meshery Server", "href": "http://localhost:9081"},
-        {"name": "Port 9081", "port": 9081}]
+        {"name": "Port 9081", "port": 9081}],
+    "terminals": [{"name": "Meshery Server", "target": "host01", "port": 9081}]
   },
   "backend": {
     "imageid": "ubuntu1804"

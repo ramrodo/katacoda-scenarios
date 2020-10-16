@@ -20,7 +20,8 @@ The dependencies can take a few seconds to install. In the meanwhile, let's obse
 
 `make build-ui`{{execute}}
 
-While Meshery whips up its UI tailor-made for you, feel free to browse through this intro presentation:
+While Meshery whips up its tailor-made UI for you, get an overview of Meshery and it's features:
+
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSJdaOJ6MdmYQCyd2c3sbGsa9h7BVqauzBpdeVIKMpAh4eHoStLTMS8hmYJdzT0YTgXzS2chyrLPRzR/embed?start=true&loop=true&delayms=5000" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
