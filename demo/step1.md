@@ -1,10 +1,9 @@
-# Meshery
 
-1. Get your own copy of the Meshery repository:
+# Get your own copy of the Meshery repository:
 
 `git clone https://github.com/layer5io/meshery.git`{{execute}}
 
-2. Read up while your repository gets cloned!
+# Read up while the repository gets cloned!
 
 Service meshes are a layer of cloud-centric architecture built right in as a layer of the application itself, rather than posing as an external attribute that needs to be managed and configured separately. They provide fine grained traffic control, inproved resiliency, observability and modernizes existing workloads without interfering with the existing deployment.
 

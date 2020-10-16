@@ -12,9 +12,9 @@ Your katacoda environment is already set up with stable versions of Golang, npm 
 
 The dependencies can take a few seconds to install. In the meanwhile, let's observe the Meshery architecture
 
-![Katacoda Logo](./assets/meshery-architecture.svg)
+![Meshery Architecture](./assets/meshery-architecture.png)
 
-![Katacoda Logo](./assets/meshery-object-model.png)
+![Meshery Object Model](./assets/meshery-object-model.png)
 
 - Build and export the UI:
 
