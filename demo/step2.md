@@ -1,6 +1,6 @@
 
-Meshery is written in Golang and leverages Go modules. The UI is built using React and Next.JS.
-Your katacoda environment is already set up with stable versions of Golang, npm and node, which is all you need to run Meshery!
+[Meshery](https://meshery.io/) is written in Golang and leverages Go modules. The UI is built using React and Next.JS.
+Your katacoda environment is already configured with stable versions of Golang, npm and node, which is all you need to run Meshery!
 
 - Jump into the Meshery repository with:
 
