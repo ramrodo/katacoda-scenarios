@@ -11,7 +11,7 @@ Build and export the UI:
 `make build-ui`{{execute}}
 
 
-
+`echo "Run in Terminal"`{{execute}}
 
 
 
