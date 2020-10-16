@@ -1,4 +1,4 @@
-Build the Meshery server:
+**Build the Meshery server:**
 
 `make run-local`{{execute}}
 
