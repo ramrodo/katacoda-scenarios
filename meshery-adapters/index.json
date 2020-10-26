@@ -6,19 +6,19 @@
   "details": {
     "steps": [
       {
-        "title": "Set up",
+        "title": "Let's get meshing!",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Deploy Istio",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Set up Ingress",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Run Bookinfo sample app",
         "text": "step4.md"
       }
     ],
@@ -34,8 +34,9 @@
     "hideHiddenFiles": true,
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
     "showdashboard": true,
-    "dashboards": [{"name": "Meshery Server", "port": 9081}],
-    "uilayout": "terminal"  },
+    "dashboards": [{"name": "Meshery Server", "port": 9081},{"name": "Istio-BookInfo", "port": 31380}],
+    "uilayout": "editor-terminal"
+  },
   "backend": {
     "imageid": "minikube-running"
   }
