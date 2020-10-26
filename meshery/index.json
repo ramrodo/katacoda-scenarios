@@ -1,32 +1,26 @@
 {
-  "title": "Meshery",
-  "description": "Deploying an adapter",
-  "difficulty": "beginner",
+  "title": "Meshery - Intro",
+  "description": "Getting started with Meshery adapters",
+  "difficulty": "Beginner",
   "time": "5 minutes",
   "details": {
     "steps": [
       {
-        "title": "Setting up the kubernetes cluster",
-        "text": "step1.md",
-        "answer": "step1-answer.md",
-        "verify": "step1-verify.sh",
-        "background": "run-command-in-background.sh",
-        "foreground": "run-command-in-terminal.sh"
+        "title": "Set up",
+        "text": "step1.md"
       },
       {
-        "title": "Set up and run Istio",
+        "title": "Run Istio",
         "text": "step2.md"
       }
     ],
     "intro": {
-      "text": "Meshery - An intro",
-      "background": "courseBase.sh",
-      "credits": "",
-      "foreground": "changecd.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
-    },
+    }
+  },
   "environment": {
     "uieditorpath": "/root/example",
     "hideHiddenFiles": true,
