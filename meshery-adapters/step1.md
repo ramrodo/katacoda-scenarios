@@ -1,19 +1,19 @@
 
-# Install Minikube and Meshery
+
+## Install Minikube and Meshery
 
 This session has minikube pre-installed and set up for you. 
 
-Let's start minikube:
+- Run Minikube
 `minikube start`{{execute}}
+- Check up on your minikube nodes:
+`kubectl get nodes`{{execute}}
 
-Check up on your nodes:
-``minikube start`{{execute}}`{{execute}}
-
-## Step 1
+## Set up Meshery
 
 `curl -L https://git.io/meshery | bash -`{{execute}}
 
-Congratulations! 
+**Congratulations!**
 You have successfully installed Meshery. Let's get meshing.
 
 Meshery is auto launched at port:`9081`. 
