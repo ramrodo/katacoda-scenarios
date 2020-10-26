@@ -26,7 +26,7 @@
     "hideHiddenFiles": true,
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
     "showdashboard": true,
-    "dashboards": [{"name": "Meshery Server", "port": 9081}],
+    "dashboards": [{"name": "Meshery Server", "port": 9081},{"name": "Istio-BookInfo", "port": 31380}],
     "uilayout": "editor-terminal"
   },
   "backend": {

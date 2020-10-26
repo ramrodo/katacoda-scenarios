@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/layer5io/istio-service-mesh-workshop/tree/master/lab-1
+HostUrl=https://raw.githubusercontent.com/layer5io/istio-service-mesh-workshop/master/lab-1/img/install-istio.png
