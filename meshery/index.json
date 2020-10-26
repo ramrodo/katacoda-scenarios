@@ -1,0 +1,41 @@
+{
+  "title": "Meshery",
+  "description": "Deploying an adapter",
+  "difficulty": "beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Setting up the kubernetes cluster",
+        "text": "step1.md",
+        "answer": "step1-answer.md",
+        "verify": "step1-verify.sh",
+        "background": "run-command-in-background.sh",
+        "foreground": "run-command-in-terminal.sh"
+      },
+      {
+        "title": "Set up and run Istio",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "Meshery - An intro",
+      "background": "courseBase.sh",
+      "credits": "",
+      "foreground": "changecd.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+  "environment": {
+    "uieditorpath": "/root/example",
+    "hideHiddenFiles": true,
+    "exclusionPatterns": ["*test", "./test/*", "./logs"],
+    "showdashboard": true,
+    "dashboards": [{"name": "Meshery Server", "port": 9081}],
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu1804"
+  }
+}
