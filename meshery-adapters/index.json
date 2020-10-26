@@ -14,11 +14,11 @@
         "text": "step2.md"
       },
       {
-        "title": "Set up Ingress",
+        "title": "Run a sample app",
         "text": "step3.md"
       },
       {
-        "title": "Run Bookinfo sample app",
+        "title": "Deploy Istio-Ingress Gateway",
         "text": "step4.md"
       }
     ],
@@ -35,7 +35,7 @@
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
     "showdashboard": true,
     "dashboards": [{"name": "Meshery Server", "port": 9081},{"name": "Istio-BookInfo", "port": 31380}],
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "minikube-running"
