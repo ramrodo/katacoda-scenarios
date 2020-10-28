@@ -1,6 +1,6 @@
 {
-  "title": "Working with Meshery and Linkerd",
-  "description": "Meshing around with the Meshery adapter for Linkerd",
+  "title": "Working with Meshery and Kuma",
+  "description": "Meshing around with the Meshery adapter for Kuma",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -10,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Deploy Linkerd",
+        "title": "Deploy Kuma",
         "text": "step2.md"
       },
       {
@@ -30,7 +30,7 @@
     "hideHiddenFiles": true,
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
     "showdashboard": true,
-    "dashboards": [{"name": "Meshery Server", "port": 9081},{"name": "Linkerd-Emojivoto", "port": 8081}],
+    "dashboards": [{"name": "Meshery Server", "port": 9081}],
     "uilayout": "terminal"
   },
   "backend": {

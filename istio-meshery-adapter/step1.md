@@ -1,7 +1,3 @@
-
-
-## Install Minikube and Meshery
-
 This session has minikube pre-installed and set up for you. 
 
 - Run Minikube

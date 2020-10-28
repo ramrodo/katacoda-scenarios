@@ -1,6 +1,6 @@
 {
-  "title": "Working with Meshery and Kuma",
-  "description": "Meshing around with the Meshery adapter for Kuma",
+  "title": "Learn Traffic Control with Meshery",
+  "description": " Control traffic with Meshery for any service mesh",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -26,6 +26,11 @@
     }
   },
   "environment": {
+    "uieditorpath": "/root/example",
+    "hideHiddenFiles": true,
+    "exclusionPatterns": ["*test", "./test/*", "./logs"],
+    "showdashboard": true,
+    "dashboards": [{"name": "Meshery Server", "port": 9081}],
     "uilayout": "terminal"
   },
   "backend": {
