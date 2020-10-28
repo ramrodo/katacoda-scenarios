@@ -1,6 +1,6 @@
 [Meshery](https://meshery.io/) is the service mesh management plane which offers lifecycle, configuration, and performance management of service meshes and their workloads.
 
-This session aims to provide a walkthrough on how to configure, set up and run Meshery adapters. Once Meshery is set up, it can be extended to:
+This session aims to provide a walkthrough on how to configure, set up and run the Meshery adapter for Linkerd. Once Meshery is set up, it can be extended to:
 
 - Support and manage the performance of your service mesh and its workloads 
 

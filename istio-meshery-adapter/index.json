@@ -1,8 +1,8 @@
 {
-  "title": "Working with Meshery adapters",
+  "title": "Working with Meshery and Istio",
   "description": "Set up and run Meshery adapter",
   "difficulty": "Beginner",
-  "time": "5 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
