@@ -25,7 +25,9 @@ ingess   NodePort   10.97.34.25   <none>        80:31118/TCP   27m
 
 The Image Hub application should now be deployed on the HTTP port: `31118`. Make your way to the `Consul-ImageHub` Server tab. For this tutorial, the server is configured to be listening at `http://localhost:31118`
 
-You can now est your ability to "pull" an image (images are not in fact pulled, but an HTTP request is sent to the backend api). *You should not be able to pull an image.*
+![Imagehub on Consul](./assets/image-hub-on-consul-with-wasm-and-meshery.png)
+
+You can now test your ability to "pull" an image (images are not in fact pulled, but an HTTP request is sent to the backend api). *You should not be able to pull an image.*
 
 ### Sign up
 
@@ -43,3 +45,4 @@ On local deployment, the URL would be `http://localhost:9081/performance`{{copy}
 - Enter { "authorization" : "<your user token>" }
 - Run the performance test. Ensure that your subscription plan limit is enforced accordingly.
 - Change your subscription plan and retest.
+

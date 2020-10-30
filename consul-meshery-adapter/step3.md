@@ -1,7 +1,7 @@
 
 ## Image Hub
 
-To set up Image Hub, we will first need to set up an Ingress pathway.
+To set up Image Hub on Consul, we will first need to set up an Ingress pathway.
 
 Ingress exposes HTTP and HTTPS routes from outside the cluster to services within the cluster. The components deployed on the service mesh by default are not exposed outside the cluster. An Ingress Gateway is deployed as a Kubernetes service of type LoadBalancer (or NodePort). To make any sample app accessible externally to the cluster, you have to create an `Consul Gateway` for the application and also define an `Consul VirtualService` with the routes we need.
 
@@ -31,5 +31,4 @@ You may now:
 
 2. Obtain the complete URL by running:
 `echo "http://$(kubectl get nodes --selector=kubernetes.io/role!=master -o jsonpath={.items[0].status.addresses[?\(@.type==\"InternalIP\"\)].address}):$(kubectl get svc consul-ingressgateway -n consul-system -o jsonpath='{.spec.ports[1].nodePort}')/productpage"`{{execute}}
-
 
