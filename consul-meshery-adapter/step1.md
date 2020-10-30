@@ -1,6 +1,3 @@
-
-## Install Minikube and Meshery
-
 Kubernetes has been pre-installed and configured for this session. 
 
 ## Set up Meshery
