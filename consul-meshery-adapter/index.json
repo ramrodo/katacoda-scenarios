@@ -34,7 +34,7 @@
     "hideHiddenFiles": true,
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
     "showdashboard": true,
-    "dashboards": [{"name": "Meshery Server", "port": 9081}],
+    "dashboards": [{"name": "Meshery Server", "port": 9081},{"name": "Consul ImageHub", "port": 31118}],
     "uilayout": "terminal"
   },
   "backend": {

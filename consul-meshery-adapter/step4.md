@@ -1,3 +1,5 @@
+[Image Hub](https://github.com/layer5io/image-hub) is a sample app created by the Layer5 community with the purpose of exploring Web Assemblies using WASM filters.
+
 ## Deploy Imagehub on Consul
 
 - Navigate to the **Consul Management** page on Meshery with `consul-system` in the Namespace field.
@@ -23,7 +25,7 @@ NAME     TYPE       CLUSTER-IP    EXTERNAL-IP   PORT(S)        AGE
 ingess   NodePort   10.97.34.25   <none>        80:31118/TCP   27m
 ```
 
-The Image Hub application should now be deployed on the HTTP port: `31118`. Make your way to the `Consul-ImageHub` Server tab. For this tutorial, the server is configured to be listening at `http://localhost:31118`
+The Image Hub application should now be deployed on the HTTP port: `31118`. Make your way to the `Consul ImageHub` Server tab. For this tutorial, the server is configured to be listening at `http://localhost:31118`
 
 ![Imagehub on Consul](./assets/image-hub-on-consul-with-wasm-and-meshery.png)
 
