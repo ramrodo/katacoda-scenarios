@@ -19,6 +19,8 @@ Get a NamespaceSelector, which decides whether to run the webhook on an object b
 - Navigate to the **Istio Management** page on Meshery and enter `default` in the Namespace field.
 - Select the `Bookinfo application` in the `Sample Application` drop down menu.
 
+![Bookinfo sample app](./assets/istio-sample-app)
+
 The virtual service and gateway needed to expose the BookInfo's productpage application in the default namespace has now been deployed.
 
 Before continuing to the next step, perform these verification checks to ensure that your sample app is eady to be deployed: 

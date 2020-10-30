@@ -1,12 +1,7 @@
 
 ## Install Minikube and Meshery
 
-This session has minikube pre-installed and set up for you. 
-
-- Run Minikube
-`minikube start`{{execute}}
-- Check up on your minikube nodes:
-`kubectl get nodes`{{execute}}
+Kubernetes has been pre-installed and configured for this session. 
 
 ## Set up Meshery
 
@@ -25,5 +20,4 @@ Choose `Meshery` as your provider for now and get started.
 
 Sign up and start meshing around!
 ![Sign up page](./assets/login-page.png)
-
 

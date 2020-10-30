@@ -28,6 +28,8 @@ To deploy the Emojivoto application, follow these steps:
  - Enter `default` in the Namespace field.
  - Click the (+) icon on the Sample Application card and select `Emojivoto Application` from the list.
 
+ ![Emojivoto sample app](./assets/linkerd-sample-app.png)
+
 
 **Let's verify that your deployment works. Run**:
 

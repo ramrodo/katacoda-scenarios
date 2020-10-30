@@ -14,8 +14,12 @@
         "text": "step2.md"
       },
       {
-        "title": "Run a sample app",
+        "title": "Set up a Consul-Ingress pathway",
         "text": "step3.md"
+      },
+      {
+        "title": "Run a sample app",
+        "text": "step4.md"
       }
     ],
     "intro": {
