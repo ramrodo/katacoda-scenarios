@@ -7,7 +7,7 @@ This session has minikube pre-installed and set up for you.
 
 ## Set up Meshery
 
-`curl -L https://git.io/meshery | bash -`{{execute}}
+`curl -L https://raw.githubusercontent.com/layer5io/service-mesh-labs/master/meshery-istio | bash -`{{execute}}
 
 **Congratulations!**
 You have successfully installed Meshery. Let's get meshing.

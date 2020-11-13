@@ -1,22 +1,15 @@
 
-## Install Minikube and Meshery
+Kubernetes has been set up and pre-configure for this tutorial session.
 
-This session has minikube pre-installed and set up for you. 
-
-- Run Minikube
-`minikube start`{{execute}}
-- Check up on your minikube nodes:
-`kubectl get nodes`{{execute}}
-
-## Set up Meshery
+## Install Meshery
 
 `curl -L https://git.io/meshery | bash -`{{execute}}
 
 **Congratulations!**
 You have successfully installed Meshery. Let's get meshing.
 
-Meshery is auto launched at port:`9081`. 
-Make your way to the Meshery Server tab. For this tutorial, the server is configured to be listening at `http://localhost:9081`
+Meshery runs on port:`9081`. 
+Navigate to the Meshery Server tab. For this tutorial, the server is configured to be listening at `http://localhost:9081`
 
 **Welcome to Meshery!**
 
