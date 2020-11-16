@@ -35,7 +35,7 @@
     "exclusionPatterns": ["*test", "./test/*", "./logs"],
     "showdashboard": true,
     "dashboards": [{"name": "Meshery Server", "port": 9081},{"name": "Istio-BookInfo", "port": 31380}],
-    "uilayout": "terminal"
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "minikube-running"
