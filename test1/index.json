@@ -1,0 +1,27 @@
+{
+  "title": "test1",
+  "description": "test1",
+  "difficulty": "Beginner",
+  "time": "10 minute",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "ubuntu1804",
+    "port": "9081"
+  }
+}
